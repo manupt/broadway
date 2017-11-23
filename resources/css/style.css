@@ -9,6 +9,13 @@ ul{
   margin: 0;
 }
 
+a{
+  color: inherit;
+}
+a:hover{
+  color: #dadadd;
+}
+
 .top,
 .middle{
   background-image: url("../../resources/images/background_flatiron.png");
@@ -19,7 +26,8 @@ ul{
   font-weight: bold;
   color: white;
 }
-.top li{
+.top li,
+h6 a{
   font-size: 18px;
   color: white;
 }
